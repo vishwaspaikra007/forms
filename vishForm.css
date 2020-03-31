@@ -1,0 +1,34 @@
+ .vishClassicForm {
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 14px -4px black;
+    padding: 20px;
+  } .vishClassicForm  input{
+    margin-top: 15px;
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    outline: none;
+  }  .vishClassicForm  button, .vishClassicForm  input[type="submit"] {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      width: fit-content;
+      margin: 15px 0px 0px auto;
+      display: block;
+      outline: none;
+  }label > span  {
+      position: relative;
+      top: -29px;
+      left: 12px;
+      color: gray;
+      cursor: text;
+      transition: 500ms;
+  }
+  .container {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
